@@ -36,7 +36,7 @@ NextJS uses file-system based routing. This means that, within certain directori
 
 In modern web development, it's common to utilize portions of the routing path as variables in your code. For example, if we build a site that allows users to sign up, we might want to have user profile information at `/users/{{user_id}}`. You can accomplish this in NextJS by adding brackets to your file or directory name. So, for our user profile example, I might have a file at `/pages/users/[user_id].jsx`. In my code, I can access that variable like this:
 
-```React
+```Javascript
 import { useRouter } from 'next/router'
 
 ...
